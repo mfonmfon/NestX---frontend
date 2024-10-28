@@ -1,0 +1,14 @@
+.BackgroundImageButton{
+  position: absolute;
+  top: 170%;
+  right: 48%;
+  text-align: center;
+  transform: translate(45%, -50%);
+}
+
+.BackgroundImageButton img{
+  width: 800px;
+  border-radius: 50%;
+  /* padding: 10px; */
+
+}

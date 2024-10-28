@@ -1,0 +1,51 @@
+.NavBarContainer{
+  width: 100%;
+  /* top: 15px;
+  left: 360px; */
+}
+.navList{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 8%;
+  padding-right: 8%;
+
+}
+.navList ul li{
+  display: inline-block;
+  list-style: none;
+  width: 170px;
+}
+.navList ul li a{
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-weight: 500;
+  font-family: monospace;
+  position: relative;
+  transition: 0.5s ease-in-out
+}
+.navList ul li a:hover ::before{
+  content: " ";
+  color: blue;
+  background-color: black;
+  position: absolute;
+   width: 30px;
+  height: 2px;
+  top: 20px;
+  left: 20px; 
+}
+.navItemButton a{
+  background: white;
+  color: #2177FF;
+  border: 2px solid #2177FF;
+  border-radius: 24px;
+  padding: 17px 33px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: 17px;
+}
+

@@ -1,0 +1,45 @@
+.LearningResourceContainer{
+  width: 1510px; 
+  height: 1570px;
+  justify-content: space-between;
+  align-items: center;
+  left: 205px;
+}
+.LearningResourceContainer .LearningResourceTitle{
+  text-align: center;
+  width: 100%;
+  font-size: 62px;
+  line-height: 55px;
+  margin-left: 15%;
+  margin-top: 70px;
+}
+.LearningResourceContainer .LearningResourceSubTitle{
+  text-align: center;
+  width: 100%;
+  font-size: 27px;
+  line-height: 5px;
+  margin-left: 15%;
+  margin-bottom: 10%;
+  color: #F0A100;
+  font-weight: 600;
+}
+.LearningResourceCard{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 199px;
+}
+.LearningResourceCard .LearningResourceCardContent{
+  border: 1px transparent;
+  border-radius: 15px;
+  width: 580px;
+  height: 410px;
+  margin-bottom: 50px;
+  background-color: black;
+  margin-top: 50px;
+  padding: 20px;
+  gap: 50px;
+  
+  
+}
